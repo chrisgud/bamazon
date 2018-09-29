@@ -8,4 +8,4 @@
     * Prompts for purchase quantity
         * If amount is available, purchase quantity is deducted from stock and a total is displayed
 
-![image of CLI interface](http://https://github.com/chrisgud/bamazon/media/BuyingItems.png)
+![image of CLI interface](https://github.com/chrisgud/bamazon/blob/master/media/BuyingItems.PNG)
