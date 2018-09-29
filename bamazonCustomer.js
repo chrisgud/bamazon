@@ -49,10 +49,8 @@ queryProductId = () => {
             message: "Enter the product id of what to buy:",
         })
         .then((ans) => {
-            console.log(ans.queryID);
             connection.query(`SELECT price, stock_quantity FROM products WHERE item_id = "${ans.queryID}"`, (err, res) => {
                 if (err) throw err;
-                console.log(res);
                 if (res === undefined) {
                     console.log(`Invalid Product Id`);
                     start();
